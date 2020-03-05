@@ -1,0 +1,40 @@
+table{
+    border-collapse: collapse;
+    width: 700px;
+}
+tr, th{
+    text-align: left;
+}
+tr{
+    cursor: pointer;
+    position: relative;
+}
+.hovered{
+    display: none;
+    border:1px solid black;
+    position: absolute;
+    background-color: #D7C8EB;
+    left: 6%;
+}
+.first-date{
+
+}
+td:hover div{
+    display: block;
+}
+
+#header{
+    background-color:#833AE0 ;
+}
+#footer{
+    background-color:#833AE0 ;
+}
+tr:nth-child(even){
+    background-color: #F1ECF8;
+}
+tr:nth-child(odd){
+    background-color: #D7C8EB;
+}
+tr:hover{
+    background-color: aqua;
+}
