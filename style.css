@@ -1,37 +1,88 @@
-table{
-    border-collapse: collapse;
-    width: 700px;
+.container{
+    max-width: 1080px;  
+    margin: auto;
 }
-tr, th{
-    text-align: left;
+.headline{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 43px;
+    line-height: 50px;
+    min-width: 500px;
+    color: #000000;
 }
-tr{
-    cursor: pointer;
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+}
+.coin{
     position: relative;
+    border-radius:50%
+
 }
-.hovered{
-    display: none;
-    border:1px solid black;
+.coin_img{
+    width: 172px;
+}
+.coin_discount{
     position: absolute;
-    background-color: #D7C8EB;
-    left: 6%;
+    width: 43px;
+    height: 43px;
+    top: 10%;
+    right:10%;
+    border-radius:50%;
+    background: #833AE0;
 }
-td:hover div{
-    display: block;
+.coin_discount p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin:13px auto 7px auto ;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 221.52px;
+    padding: 25px 0 0;
+}
+.product_link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #833AE0;
 }
 
-#header{
-    background-color:#833AE0 ;
+.information ul{
+    padding:14px 0 0;
+    list-style: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 12px;
+    margin: 0;
 }
-#footer{
-    background-color:#833AE0 ;
+
+.price ul{
+    padding: 25px 0 0;
+    margin: 0;
+    list-style: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
 }
-tr:nth-child(even){
-    background-color: #F1ECF8;
-}
-tr:nth-child(odd){
-    background-color: #D7C8EB;
-}
-tr:hover{
-    background-color: aqua;
+.price li:last-child{
+    font-size: 14px;
+    font-weight: normal;
+    color:gray;
 }
