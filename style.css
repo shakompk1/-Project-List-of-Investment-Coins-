@@ -14,10 +14,12 @@
 .main{
     display: flex;
     flex-wrap: wrap;
+    justify-content:center;
 }
 .product{
     display: flex;
     justify-content: space-between;
+    width: 50%;
     min-width: 500px;
 }
 .coin{
@@ -25,6 +27,7 @@
     border-radius:50%
 
 }
+
 .coin_img{
     width: 172px;
 }
