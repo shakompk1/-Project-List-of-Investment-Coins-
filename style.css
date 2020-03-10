@@ -91,7 +91,8 @@
     color:gray;
 }
 .container_product{
-    width: 920px;
+    max-width: 920px;
+    min-width: 600px;
     margin: auto;
 }
 .main_product{
@@ -126,7 +127,7 @@
 .text{
     padding:12px 44px 16px 47px;
     background: rgba(196, 196, 196, 0.5);
-    width: 456px;
+    width: 50%;
 }
 .articul{
     font-size: 12px;
