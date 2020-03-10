@@ -9,7 +9,6 @@
     font-size: 43px;
     line-height: 50px;
     min-width: 500px;
-    text-align: center;
     color: #000000;
 }
 .main{
@@ -65,6 +64,7 @@
     font-size: 16px;
     line-height: 19px;
     color: #833AE0;
+    text-decoration: none;
 }
 
 .information ul{
@@ -89,4 +89,90 @@
     font-size: 14px;
     font-weight: normal;
     color:gray;
+}
+.container_product{
+    width: 920px;
+    margin: auto;
+}
+.main_product{
+    display: flex;
+    font-family: "Roboto" , sans-serif;
+}
+.headline{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+}
+.coin_product{
+    position: relative;
+    width: 50%;
+}
+.icon_front{
+    position: absolute;
+    width: 100%;
+}
+.icon_back{
+    position: absolute;
+    display: none;
+}
+.coin_product:hover  .icon_back{
+    width: 100%;
+    display: block;
+}
+
+.text{
+    padding:12px 44px 16px 47px;
+    background: rgba(196, 196, 196, 0.5);
+    width: 456px;
+}
+.articul{
+    font-size: 12px;
+    color:gray;
+}
+.articul_span{
+    font-size: 16px;
+    color:black;
+}
+.articul_prise{
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 33px;
+    color:black;
+}
+.text_info{
+    border-collapse: collapse;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 105.2%;
+    padding-bottom:50px;
+}
+.text_info tr td{
+    padding:6.29px 4.73px 6.86px 21.22px;
+}
+.text_info tr td:nth-child(odd){
+    border-right: 0.5px solid #B1ABAB;
+}
+.text_info tr{
+    border-bottom: 0.5px solid #B1ABAB;
+}
+.text_info tr:last-child{
+    border-bottom: none;
+}
+.text_info tr:nth-child(odd){
+    background: rgba(255, 255, 255, 0.9);    
+}
+.backlink{
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #833AE0;
+    padding-top: 50px;
+    padding-bottom:20px ;
 }
