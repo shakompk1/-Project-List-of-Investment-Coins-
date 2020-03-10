@@ -1,6 +1,5 @@
 .container{
-    max-width: 1080px;  
-    max-height: 720px;
+    max-width: 1080px; 
     margin: auto;
 }
 .headline{
@@ -17,17 +16,16 @@
 .main{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 .product{
     display: flex;
     justify-content: space-between;
-    width: 48%;
-    min-width: 500px;
+    max-width: 48%;
+    min-width: 400px;
     height: 150px;
 }
 .product:nth-child(odd){
-    margin-right: 40px;
+    margin-right: 30px;
 }
 .coin{
     position: relative;
@@ -36,7 +34,7 @@
 }
 
 .coin_img{
-    width: 172px;
+    max-width: 172px;
 }
 .coin_discount{
     position: absolute;
@@ -62,7 +60,7 @@
     flex-direction: column;
     align-content: center;
     width: 221.52px;
-    padding: 25px 0 0;
+    padding: 25px 10px 0 0;
 }
 .product_link{
     font-family: Roboto , sans-serif;
@@ -142,7 +140,7 @@
     color:gray;
 }
 .articul_span{
-    font-size: 16px;
+    font-size: 12px;
     color:black;
 }
 .articul_prise{
@@ -176,7 +174,7 @@
 }
 .backlink{
     display: block;
-    font-family: Roboto;
+    font-family: Roboto ,sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
