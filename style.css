@@ -1,5 +1,6 @@
 .container{
     max-width: 1080px;  
+    max-height: 720px;
     margin: auto;
 }
 .headline{
@@ -10,17 +11,21 @@
     line-height: 50px;
     min-width: 500px;
     color: #000000;
+    margin: 0;
 }
 .main{
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
 }
 .product{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 48%;
     min-width: 500px;
+    height: 150px;
+}
+.product:nth-child(odd){
+    margin-right: 40px;
 }
 .coin{
     position: relative;
@@ -110,6 +115,7 @@
 .coin_product{
     position: relative;
     width: 50%;
+    height: 50%;
 }
 .icon_front{
     position: absolute;
@@ -118,9 +124,9 @@
 .icon_back{
     position: absolute;
     display: none;
+    width: 100%;
 }
 .coin_product:hover  .icon_back{
-    width: 100%;
     display: block;
 }
 
